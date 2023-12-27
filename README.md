@@ -25,3 +25,9 @@
     } 
     ```
 7. to load the font, import {AppLoading} from 'expo'
+
+**TO ADD REACT NAVIGATION**
+1. go to [reactnativation](https://reactnavigation.org/docs/getting-started)
+2. type ` npm install @react-navigation/native ` or ` pnpm install @react-navigation/native ` in your terminal
+3. in your project directory, run `npm install react-native-screens react-native-safe-area-context` or `pnpm install react-native-screens react-native-safe-area-context`
+4. if you want to use the stack navigation, just type `npm install react-navigation-stack` or `pnpm install react-navigation-stack`
