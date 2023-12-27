@@ -1,10 +1,10 @@
 import { StyleSheet, View, Text } from "react-native";
-const AboutDetails = () => {
+const ReviewDetails = () => {
     return ( 
         <View>
-            <Text>AboutDetails</Text>
+            <Text>ReviewDetails</Text>
         </View>
      );
 }
  
-export default AboutDetails;
+export default ReviewDetails;
