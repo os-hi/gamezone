@@ -1,8 +1,10 @@
-import { StyleSheet, View, Text } from "react-native";
-const ReviewDetails = () => {
+import { StyleSheet, View, Text, Button } from "react-native";
+import { globalStyles } from "../styles/global";
+const ReviewDetails = ({navigation}) => {
     return ( 
-        <View>
-            <Text>ReviewDetails</Text>
+        <View style={globalStyles.container}>
+            <Text>{navigation.getParam('title')}</Text>
+            <Button title="go back" onPress={() => navigation.goBack()} />
         </View>
      );
 }
